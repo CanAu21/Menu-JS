@@ -1,0 +1,32 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(142,62,16);
+    background: linear-gradient(0deg, rgba(142,62,16,1) 0%, rgba(142,65,19,1) 0%, rgba(130,195,129,0.8100490196078431) 100%, rgba(129,207,140,1) 100%, rgba(127,222,152,0.6111694677871149) 100%);
+}
+
+img{
+    transition: .7s;
+}
+
+img:hover{
+    transform: scale(1.04);
+}
+
+@media (min-width:769px){
+ #card{
+    max-width: 500px;
+ }
+
+ #card img{
+    width: 150px;
+    height: 100px;
+ }
+}
+
+@media (max-width:769px){
+    #card img{
+        height: 240px;
+    }
+}
